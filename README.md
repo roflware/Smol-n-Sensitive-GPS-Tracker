@@ -10,3 +10,9 @@ Parts:
 - BN-180 GPS Module: https://www.amazon.com/dp/B078Y4XZN9?psc=1&ref=ppx_yo2_dt_b_product_details
 - Gy-521 MPU-6050: https://www.amazon.com/dp/B008BOPN40?psc=1&ref=ppx_yo2_dt_b_product_details
 - HiLetgo Smallest SIM800L GPRS GSM Breakout Module: https://www.amazon.com/dp/B01DLIJM2E?psc=1&ref=ppx_yo2_dt_b_product_details
+
+Code location:
+- tinypico_gsm_tracker_with_mpu.ino on TinyPICO
+- index.php wherever on your web server
+- parser.php wherever on your web server and accessible by your TinyPICO to receive POST requests
+
