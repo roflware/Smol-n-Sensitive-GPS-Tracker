@@ -26,6 +26,7 @@ Schematic and wiring diagram: https://easyeda.com/testuser123456/gps-tracker
 ![](schematic_diagram.PNG)
 
 **Wiring Diagram**
+
 ![](wiring_diagram.PNG)
 
 **Pictures of the Build**
