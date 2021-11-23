@@ -23,7 +23,9 @@ Schematic and wiring diagram: https://easyeda.com/testuser123456/gps-tracker
 - parser.php wherever on your web server and accessible by your TinyPICO to receive POST requests
 
 **Schematic**
+![](schematic_diagram.PNG)
 
 **Wiring Diagram**
+![](wiring_diagram.PNG)
 
 **Pictures of the Build**
