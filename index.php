@@ -82,3 +82,23 @@ $dateNow = $resultsSeparated[2];
           position: location,
           map: map,
         });
+        marker.addListener("click", () => {
+        infowindow.open({
+          anchor: marker,
+          map,
+          shouldFocus: false,
+        });
+       });
+      }
+    </script>
+  </head>
+
+<body>
+
+    <h2>GPS Tracker</h2>
+    <div id="map"></div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJKzwbotbHflbREyQJ-_eH5Zj2zqjd0AU&callback=initMap&libraries=&v=weekly"
+      async></script>
+  </body>
+</html>
