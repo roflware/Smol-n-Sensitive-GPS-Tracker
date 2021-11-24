@@ -39,6 +39,10 @@ I selected this particular Gy-521 MPU-6050 due to its low power consuption, modi
 
 The HiLetgo Smallest SIM800L GPRS GSM Breakout Module was selected due to its price point and size. However, I made this modular so that it should be easy enough to swap for NB-IoT should that pricepoint lower.
 
+## Future Plans
+
+I plan on redesigning the PCB to accomodate replacing the SIM800L with a SIM7600G, which supports A-GPS AT Commands, as well as standalone GPS with a small, ceramic active antenna. This will eliminate the need for the need for the BN-180, thus dramatically reducing the power consumption. I will most likely need to figure out how to support its alleged 5v requirement by using a small buck/boost converter from 3.7v for the battery to 5v for the SIM7600G.
+
 **Schematic**
 ![](images/schematic_diagram.PNG)
 
