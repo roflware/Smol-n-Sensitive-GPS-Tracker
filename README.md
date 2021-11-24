@@ -46,14 +46,14 @@ The HiLetgo Smallest SIM800L GPRS GSM Breakout Module was selected due to its pr
 
 ![](images/wiring_diagram.PNG)
 
-**Pictures of the Build**
+## Pictures of the Build
 
-![](images/20211121_150802.jpg)
+<img src="images/20211121_150802.jpg" width="50%" />
 
-![](images/20211115_223129.jpg)
+<img src="images/20211115_223129.jpg" width="50%" />
 
-![](images/20211121_152238.jpg)
+<img src="images/20211121_152238.jpg" width="50%" />
 
-![](images/20211121_205753.jpg)
+<img src="images/20211121_205753.jpg" width="50%" />
 
-![](images/20211121_210128.jpg)
+<img src="images/20211121_210128.jpg" width="50%" />
