@@ -1,12 +1,12 @@
 # Smol 'n Sensitive GPS Tracker
 A small GPS tracker that uses both cell tower and GPS location tracking based off of GPS satellite availability.
 
-**Functionality:**
+## Functionality
 This is a small GPS tracker that initially attempts to pull GPS coordinates after the module warms up. If that fails to resolve any satellites, it will leverage the SIM800L to pull the coordinates of the connected cell tower. Once it sends the coordinates via HTTPS to the desired server, it will then go into ESP32's deep sleep mode with the GPS module switched off with a transistor, and the MPU accelerometer will remain powered to a low degree (gyro disabled). Once the MPU senses motion, it will power the device back on, leaving deep sleep mode, and send the current coordinates again.
 
 Schematic and wiring diagram: https://easyeda.com/testuser123456/gps-tracker
 
-**Parts:**
+## Parts
 - TinyPICO
   - https://www.amazon.com/gp/product/B0917V5YL3/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 - 400mAh LiPo battery, 5mm * 20mm * 35mm (H * W * L)
@@ -22,12 +22,12 @@ Schematic and wiring diagram: https://easyeda.com/testuser123456/gps-tracker
 - 2N222A transistor
 - 200ohm resistor
 
-**Code location:**
+## Code location
 - tinypico_gsm_tracker_with_mpu.ino on TinyPICO
 - index.php wherever on your web server
 - parser.php wherever on your web server and accessible by your TinyPICO to receive POST requests
 
-**Details/Explanation:**
+## Details/Explanation
 
 The TinyPICO was selected for its small size, general affordability, being an ESP32 module which supports "deep sleep mode", charging of an attached battery via USB-C, and 3.3V support. By using the ESP32, I was able to leverage the code from here https://github.com/Crypter/MotionDetector/blob/master/MotionDetector.ino, which was rewritten from the original version in ESP32 to Arduino code, which allows for putting the ESP32 to deep sleep mode and woken up by the MPU on the interrupt pin when it is slightly moved.
 
